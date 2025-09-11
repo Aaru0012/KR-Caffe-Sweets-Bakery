@@ -127,9 +127,12 @@
   <!-- Contact Section -->
   <section class="contact">
     <h2>Contact & Cafe Details</h2>
-    <p>[opposite govt. hospital, Dudhola, Palwal, Haryana
-        contact no. 8700721552, 8930173542
-        timing:- 10 AM - 10 PM ]</p>
+    <p>[opposite govt. hospital, Dudhola, Palwal, Haryana]
+        </p>
+    <p>[Contact no. 8700721552, 8930173542
+        ]</p>
+    <p>timing:- 10 AM - 10 PM </p>
+    
   </section>
 
  
