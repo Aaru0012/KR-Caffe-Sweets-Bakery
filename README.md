@@ -123,46 +123,15 @@
     <div class="menu-item"><span>Paneer Roll</span><span>₹110</span></div>
   </section>
 
-  <!-- Order Section -->
-  <section class="order">
-    <h2>Place Your Order</h2>
-    <form onsubmit="submitOrder(event)">
-      <input type="text" id="customerName" placeholder="Your Name" required>
-      <select id="menuItem" required>
-        <option value="">-- Select an Item --</option>
-        <option value="Cappuccino">Cappuccino - ₹120</option>
-        <option value="Espresso">Espresso - ₹100</option>
-        <option value="Latte">Latte - ₹140</option>
-        <option value="Chocolate Cake">Chocolate Cake - ₹250</option>
-        <option value="Cheesecake">Cheesecake - ₹280</option>
-        <option value="Veg Sandwich">Veg Sandwich - ₹90</option>
-        <option value="Paneer Roll">Paneer Roll - ₹110</option>
-      </select>
-      <input type="number" id="quantity" placeholder="Quantity" value="1" min="1" required>
-      <textarea id="address" placeholder="Delivery Address" required></textarea>
-      <button type="submit">Submit Order</button>
-    </form>
-  </section>
-
+  
   <!-- Contact Section -->
   <section class="contact">
     <h2>Contact & Cafe Details</h2>
-    <p>[📌 Fill in your address, phone number, email, and timings here]</p>
+    <p>[opposite govt. hospital, Dudhola, Palwal, Haryana
+        contact no. 8700721552, 8930173542
+        timing:- 10 AM - 10 PM ]</p>
   </section>
 
-  <script>
-    function submitOrder(event) {
-      event.preventDefault();
-      const name = document.getElementById('customerName').value;
-      const item = document.getElementById('menuItem').value;
-      const qty = document.getElementById('quantity').value;
-      const address = document.getElementById('address').value;
-
-      alert(`✅ Thank you ${name}! Your order for ${qty} x ${item} has been placed. Delivery to: ${address}`);
-      
-      // In real case, send this data to backend (PHP/Node.js + DB or Email API)
-    }
-  </script>
-
+ 
 </body>
 </html>
