@@ -131,7 +131,7 @@
         </p>
     <p>[Contact no. 8700721552, 8930173542
         ]</p>
-    <p>timing:- 10 AM - 10 PM </p>
+    <p>[timing:- 10 AM - 10 PM ]</p>
     
   </section>
 
